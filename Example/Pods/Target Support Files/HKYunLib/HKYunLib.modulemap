@@ -1,0 +1,6 @@
+framework module HKYunLib {
+  umbrella header "HKYunLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

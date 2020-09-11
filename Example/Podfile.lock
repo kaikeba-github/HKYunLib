@@ -1,0 +1,16 @@
+PODS:
+  - HKYunLib (0.1.0)
+
+DEPENDENCIES:
+  - HKYunLib (from `../`)
+
+EXTERNAL SOURCES:
+  HKYunLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKYunLib: 0aae72c17923cc2c5d03492faee0045cc129fb6e
+
+PODFILE CHECKSUM: b623cd296acfaf1883bdadd46eddba34fad4d293
+
+COCOAPODS: 1.9.3
