@@ -1,0 +1,11 @@
+framework module KKBLibrary {
+  umbrella header "KKBLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module KKBLibrary.Swift {
+    header "KKBLibrary-Swift.h"
+    requires objc
+}
