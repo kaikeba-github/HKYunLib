@@ -27,6 +27,9 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  if s.respond_to? 'swift_version'
+    s.swift_version = "5.0"
+  end
 
   s.source_files = 'HKYunLib/Classes/**/*'
   s.vendored_frameworks = "HKYunLib/Frameworks/KKBLibrary.framework"
